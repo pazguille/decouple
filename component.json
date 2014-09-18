@@ -1,0 +1,19 @@
+{
+  "name": "decouple",
+  "repo": "pazguille/decouple",
+  "description": "Decouple the DOM events from expensive functions.",
+  "version": "0.0.1",
+  "author": "@pazguille <guille87paz@gmail.com>",
+  "twitter": "@pazguille",
+  "keywords": [
+    "decouple",
+    "events",
+    "dom events"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
