@@ -9,8 +9,6 @@ Decouple the DOM events from expensive functions.
 - [Fixing a parallax scrolling website to run in 60 FPS](http://kristerkari.github.io/adventures-in-webkit-land/blog/2013/08/30/fixing-a-parallax-scrolling-website-to-run-in-60-fps/)
 - [John Resig](https://twitter.com/jeresig)'s article [Learning from Twitter](http://ejohn.org/blog/learning-from-twitter/).
 
-## Demo
-[TODO]
 
 ## Installation
 
