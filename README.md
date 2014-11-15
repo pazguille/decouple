@@ -14,18 +14,11 @@ Decouple the DOM events from expensive functions.
 
     $ npm install decouple
 
-### Standalone
-Also, you can use the standalone version:
-```html
-<script src="dist/decouple.js"></script>
-```
+    $ bower install decouple
 
-## How-to
-```js
-var decouple = require('decouple');
-```
+    $ component install pazguille/decouple
 
-Now, define a listener for any HTMLElement:
+## Usage
 ```js
 function foo(event) {
   console.log('foo');
@@ -40,10 +33,7 @@ function foo(event) {
 function bar() {
   console.log('bar');
 }
-```
 
-Then:
-```js
 decouple(document.querySelector('#box'), 'scroll', foo);
 ```
 
@@ -59,13 +49,11 @@ Decouple the DOM `event` from the `listener` on give `node`.
 decouple(window, 'scroll', fn);
 ```
 
-## Maintained by
+## Made and maintained with ❤ by
 - Guille Paz (Front-end developer | Web standards lover)
 - E-mail: [guille87paz@gmail.com](mailto:guille87paz@gmail.com)
 - Twitter: [@pazguille](http://twitter.com/pazguille)
 - Web: [http://pazguille.me](http://pazguille.me)
 
 ## License
-Licensed under the MIT license.
-
-Copyright (c) 2014 [@pazguille](http://twitter.com/pazguille).
+MIT license. Copyright © 2014.
