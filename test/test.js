@@ -1,8 +1,3 @@
-if (typeof window === 'undefined') {
-  var decouple = require('../'),
-      assert = require('better-assert');
-}
-
 decouple(window, 'scroll', function(eve) {
   document.body.setAttribute('data-scroll', window.pageYOffset);
 });
