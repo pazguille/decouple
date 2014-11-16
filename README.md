@@ -1,4 +1,4 @@
-# decouple [![Build Status](https://secure.travis-ci.org/pazguille/decouple.png)](http://travis-ci.org/pazguille/decouple) [![devDependency Status](https://david-dm.org/pazguille/decouple/dev-status.png)](https://david-dm.org/pazguille/decouple#info=devDependencies)
+# decouple
 
 Decouple the DOM events from expensive functions.
 
