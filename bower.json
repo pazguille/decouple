@@ -1,6 +1,6 @@
 {
   "name": "decouple",
-  "repository": "git@github.com:pazguille/mediumjs.git",
+  "repository": "git@github.com:pazguille/decouple.git",
   "description": "Decouple the DOM events from expensive functions.",
   "author": "@pazguille <guille87paz@gmail.com>",
   "version": "0.0.1",
@@ -12,8 +12,7 @@
     "gulpfile.js",
     "**/.*",
     "bower_components",
-    "test",
-    "tests"
+    "test"
   ],
   "main": "dist/decouple",
   "license": "MIT",
