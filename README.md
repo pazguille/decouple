@@ -49,6 +49,14 @@ Decouple the DOM `event` from the `listener` on give `node`.
 decouple(window, 'scroll', fn);
 ```
 
+## Build
+
+    npm run dist
+
+## Tests
+
+    npm test
+
 ## Made and maintained with ❤ by
 - Guille Paz (Front-end developer | Web standards lover)
 - E-mail: [guille87paz@gmail.com](mailto:guille87paz@gmail.com)
