@@ -25,5 +25,8 @@
     "events",
     "dom events"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "spm": {
+    "main": "index.js"
+  }
 }

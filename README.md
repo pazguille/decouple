@@ -16,6 +16,8 @@ Decouple the DOM events from expensive functions.
 
     $ bower install decouple
 
+    $ spm install decouple
+
     $ component install pazguille/decouple
 
 ## Usage
