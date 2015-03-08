@@ -59,7 +59,7 @@ decouple(window, 'scroll', fn);
 
     npm test
 
-## Made with ❤ by
+## With ❤ by
 - Guille Paz (Front-end developer | Web standards lover)
 - E-mail: [guille87paz@gmail.com](mailto:guille87paz@gmail.com)
 - Twitter: [@pazguille](http://twitter.com/pazguille)
