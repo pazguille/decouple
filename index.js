@@ -30,6 +30,8 @@ function decouple(node, event, fn) {
   }
 
   node.addEventListener(event, captureEvent, false);
+
+  return captureEvent;
 }
 
 /**

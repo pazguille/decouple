@@ -1,7 +1,7 @@
 /*!
  * decouple - v0.0.1
  *
- * Copyright (c) 2014, @pazguille <guille87paz@gmail.com>
+ * Copyright (c) 2015, @pazguille <guille87paz@gmail.com>
  * Released under the MIT license.
  */
 (function(window) {
@@ -37,6 +37,8 @@ function decouple(node, event, fn) {
   }
 
   node.addEventListener(event, captureEvent, false);
+
+  return captureEvent;
 }
 
 /**
