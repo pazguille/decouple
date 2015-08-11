@@ -42,7 +42,7 @@ decouple(document.querySelector('#box'), 'scroll', foo);
 ## API
 
 ### decouple(node, event, listener)
-Decouple the DOM `event` from the `listener` on give `node`.
+Decouple the DOM `event` from the `listener` on give `node`. Returns the listener handler.
 - `node` {HTMLElement} - A given `HTMLElement`.
 - `event` {String} - A given DOM `event`.
 - `listener` {Function} - A given `listener` to execute when the given `event` is fired.

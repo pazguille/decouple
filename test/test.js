@@ -1,4 +1,4 @@
-decouple(window, 'scroll', function(eve) {
+var handler = decouple(window, 'scroll', function(eve) {
   document.body.setAttribute('data-scroll', window.pageYOffset);
 });
 
@@ -24,8 +24,10 @@ describe('decouple', function () {
     setTimeout(function() {
       window.scrollTo(0, 0);
     }, 300);
+  });
 
-
+  it('should return the listener handler.', function () {
+    assert(typeof handler === 'function');
   });
 
 });
