@@ -1,5 +1,5 @@
 /*!
- * decouple - v0.0.1
+ * decouple - v0.0.2
  *
  * Copyright (c) 2015, @pazguille <guille87paz@gmail.com>
  * Released under the MIT license.
