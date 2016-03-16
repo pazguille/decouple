@@ -1,12 +1,12 @@
 'use strict';
 
-var requestAnimFrame = (function() {
-  return window.requestAnimationFrame ||
-    window.webkitRequestAnimationFrame ||
+var requestAnimFrame = (function(context) {
+  return context.requestAnimationFrame ||
+    context.webkitRequestAnimationFrame ||
     function (callback) {
-      window.setTimeout(callback, 1000 / 60);
+      context.setTimeout(callback, 1000 / 60);
     };
-}());
+}(typeof window !== 'undefined' ? window : global));
 
 function decouple(node, event, fn) {
   var eve,
