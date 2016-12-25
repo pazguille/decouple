@@ -2,12 +2,11 @@
   "name": "decouple",
   "repository": "git@github.com:pazguille/decouple.git",
   "description": "Decouple the DOM events from expensive functions.",
-  "author": "@pazguille <guille87paz@gmail.com>",
-  "version": "0.0.2",
+  "author": "Guille Paz <guille87paz@gmail.com>",
+  "version": "1.0.0",
   "ignore": [
     ".*",
     "package.json",
-    "component.json",
     "node_modules",
     "gulpfile.js",
     "**/.*",
@@ -28,6 +27,6 @@
     "dom events"
   ],
   "authors": [
-    "@pazguille <guille87paz@gmail.com>"
+    "Guille Paz <guille87paz@gmail.com>"
   ]
 }
