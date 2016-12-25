@@ -2,19 +2,20 @@
 <html>
   <head>
     <title>decouple Tests</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/1.13.0/mocha.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.min.css">
   </head>
   <body style="height:2000px;">
     <div id="mocha"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/1.13.0/mocha.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.min.js"></script>
     <script>
       mocha.setup('bdd');
+      var exports = null;
       function assert(expr, msg) {
         if (!expr) throw new Error(msg || 'failed');
       }
     </script>
     <script src="../dist/decouple.js"></script>
-    <script src="test.js"></script>
+    <script src="decouple.spec.js"></script>
     <script>
       window.onload = function() {
         var runner = mocha.run();
