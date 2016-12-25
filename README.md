@@ -1,6 +1,8 @@
 # decouple
 
-Decouple the DOM events from expensive functions.
+[![NPM version][npm-image]][npm-link] [![License][lic-image]][npm-link] [![Build status][travis-image]][travis-link] [![Coverage Status][coverage-image]][coverage-link] [![Dependency status][deps-image]][deps-link] [![devDependency status][devdeps-image]][devdeps-link] [![downloads][dt-image]][npm-link]
+
+> Decouple the DOM events from expensive functions.
 
 ## Based on
 - [Paul Lewis](https://twitter.com/aerotwist)'s article [Leaner, Meaner, Faster Animations with requestAnimationFrame](http://www.html5rocks.com/en/tutorials/speed/animations).
@@ -63,7 +65,20 @@ decouple(window, 'scroll', fn);
 - Guille Paz (Front-end developer | Web standards lover)
 - E-mail: [guille87paz@gmail.com](mailto:guille87paz@gmail.com)
 - Twitter: [@pazguille](http://twitter.com/pazguille)
-- Web: [http://pazguille.me](http://pazguille.me)
+- Web: [https://pazguille.me](https://pazguille.me)
 
 ## License
-MIT license. Copyright © 2014.
+MIT license. Copyright © 2016.
+
+[npm-image]: https://img.shields.io/npm/v/decouple.svg
+[lic-image]: https://img.shields.io/npm/l/decouple.svg
+[npm-link]: https://npmjs.org/package/decouple
+[travis-image]: https://img.shields.io/travis/pazguille/decouple.svg
+[travis-link]: https://travis-ci.org/pazguille/decouple
+[deps-image]: https://img.shields.io/david/pazguille/decouple.svg
+[deps-link]: https://david-dm.org/pazguille/decouple
+[devdeps-image]: https://img.shields.io/david/dev/pazguille/decouple.svg
+[devdeps-link]: https://david-dm.org/pazguille/decouple#info=devDependencies
+[dt-image]: https://img.shields.io/npm/dt/decouple.svg
+[coverage-image]: https://img.shields.io/coveralls/pazguille/decouple.svg
+[coverage-link]: https://coveralls.io/github/pazguille/decouple
