@@ -1,23 +1,27 @@
 {
   "name": "decouple",
-  "repository": "git@github.com:pazguille/decouple.git",
+  "version": "1.0.0",
   "description": "Decouple the DOM events from expensive functions.",
-  "author": "@pazguille <guille87paz@gmail.com>",
-  "version": "0.0.2",
+  "repository": "git@github.com:pazguille/decouple.git",
+  "author": "Guille Paz <guille87paz@gmail.com>",
   "scripts": {
-    "dist": "gulp",
-    "test": "gulp test"
+    "build": "node browserify.js",
+    "dist": "npm run build && uglifyjs ./dist/decouple.js -m -o ./dist/decouple.min.js --source-map ./dist/decouple.min.js.map",
+    "test": "npm run build && NODE_ENV=test istanbul cover _mocha -- ./test/*.spec.js",
+    "lint": "eslint index.js"
   },
   "devDependencies": {
-    "gulp": "^3.6.2",
-    "gulp-footer": "^1.0.5",
-    "gulp-header": "^1.0.5",
-    "gulp-mocha": "^3.0.1",
-    "gulp-rename": "^1.2.0",
-    "gulp-replace": "^0.5.4",
-    "gulp-uglify": "^2.0.0",
-    "mkdirp": "^0.5.1",
-    "better-assert": "^1.0.1"
+    "better-assert": "1.0.1",
+    "browserify": "13.1.1",
+    "coveralls": "2.11.15",
+    "eslint": "3.12.2",
+    "eslint-config-airbnb-base": "11.0.0",
+    "eslint-plugin-import": "2.2.0",
+    "istanbul": "0.4.5",
+    "jsdom": "9.9.1",
+    "mkdirp": "0.5.1",
+    "mocha": "3.2.0",
+    "uglifyjs": "2.4.10"
   },
   "main": "index.js",
   "keywords": [
@@ -25,8 +29,8 @@
     "events",
     "dom events"
   ],
-  "license": "MIT",
   "spm": {
     "main": "index.js"
-  }
+  },
+  "license": "MIT"
 }
