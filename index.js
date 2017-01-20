@@ -6,7 +6,7 @@ var requestAnimFrame = (function() {
     function (callback) {
       window.setTimeout(callback, 1000 / 60);
     };
-}());
+}().bind(window));
 
 function decouple(node, event, fn) {
   var eve,
