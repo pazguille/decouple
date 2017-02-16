@@ -3,7 +3,7 @@
   "repository": "git@github.com:pazguille/decouple.git",
   "description": "Decouple the DOM events from expensive functions.",
   "author": "Guille Paz <guille87paz@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "ignore": [
     ".*",
     "package.json",

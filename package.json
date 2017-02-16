@@ -1,6 +1,6 @@
 {
   "name": "decouple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decouple the DOM events from expensive functions.",
   "repository": "git@github.com:pazguille/decouple.git",
   "author": "Guille Paz <guille87paz@gmail.com>",
