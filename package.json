@@ -20,7 +20,7 @@
     "istanbul": "0.4.5",
     "jsdom": "9.11.0",
     "mkdirp": "0.5.1",
-    "mocha": "3.2.0",
+    "mocha": "3.5.2",
     "uglifyjs": "2.4.10"
   },
   "main": "index.js",
